@@ -52,7 +52,6 @@ class _CalculationState extends State<ThirdScreen> {
               validator: (value) {
                 if (value!.isEmpty) {
                   return "Please enter a number";
-                  ;
                 } else if (int.parse(value) > 10) {
                   return "Please enter a number less than 10";
                 } else {

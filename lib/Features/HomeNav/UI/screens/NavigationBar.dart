@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:task1/UI/FirstScreen.dart';
-import 'package:task1/UI/SecondScreen.dart';
-import 'package:task1/UI/ThirdScreen.dart';
+import 'package:task1/Features/FirstScreen/UI/screens/FirstScreen.dart';
+import 'package:task1/Features/SecondScreen/UI/screens/SecondScreen.dart';
+import 'package:task1/Features/ThirdScreen/UI/screens/ThirdScreen.dart';
 
 class MainScreen extends StatefulWidget {
   const MainScreen({super.key});
